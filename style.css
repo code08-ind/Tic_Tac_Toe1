@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+div.container {
+  width: 80%;
+  background-color: grey;
+  border-radius: 20px;
+  border: 6px solid white;
+}
+
+h1.head {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+p.info {
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-top: 0px;
+  color: red;
+}
+
+h6.result {
+  background-color: white;
+}
+
+table {
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+table,
+td,
+tr {
+  border: 2px solid black;
+}
+
+td {
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 800;
+}
+
+td input {
+  width: 118px;
+  height: 118px;
+  text-align: center;
+  outline: none;
+  font-weight: 800;
+}
+
+td input#one {
+  background-color: rgb(185, 249, 253);
+}
+
+td input#two {
+  background-color: #87cefa;
+}
+
+td input#three {
+  background-color: rgb(185, 249, 253);
+}
+
+td input#four {
+  background-color: #87cefa;
+}
+
+td input#five {
+  background-color: rgb(185, 249, 253);
+}
+
+td input#six {
+  background-color: #87cefa;
+}
+
+td input#seven {
+  background-color: rgb(185, 249, 253);
+}
+
+td input#eight {
+  background-color: #87cefa;
+}
+
+td input#nine {
+  background-color: rgb(185, 249, 253);
+}
+
+p.link {
+  text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  div.container {
+    width: 105%;
+  }
+
+  td {
+    width: 75px;
+    height: 75px;
+    font-size: 1.5em;
+  }
+
+  td input {
+    width: 73px;
+    height: 73px;
+  }
+}
